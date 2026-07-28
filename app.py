@@ -156,7 +156,7 @@ with tab3:
 
     col1, col2 = st.columns(2)
     with col1:
-        pred_doctor = st.selectbox("Doctor", doctors_df['doctor_id'] + " - " + doctors_df['name'])
+        pred_doctor = st.selectbox("Doctor", doctors_df['doctor_id'] + " - " + doctors_df['name'] +doctors_df['department'])
         total_slots = st.slider("Total slots that day", 10, 30, 20)
         booked_slots = st.slider("Booked slots so far", 0, total_slots, int(total_slots * 0.6))
     with col2:

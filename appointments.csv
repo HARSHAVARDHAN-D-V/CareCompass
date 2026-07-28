@@ -1,0 +1,203 @@
+visit_id,patient_id,doctor_id,visit_date,reason_for_visit,symptoms,diagnosis,prescribed_medication,appointment_start_time,consultation_duration_min,total_slots_that_day,booked_slots_that_day,booking_ratio,start_time_minutes
+V0001,P001,D12,2026-02-25,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",12:00,31,25,23,0.92,720
+V0002,P001,D01,2026-02-03,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",16:00,21,30,15,0.5,960
+V0003,P001,D05,2026-06-04,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,11:00,18,15,6,0.4,660
+V0004,P001,D03,2025-11-20,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,11:30,26,25,18,0.72,690
+V0005,P001,D02,2026-03-25,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,14:45,19,15,6,0.4,885
+V0006,P002,D09,2025-07-31,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",16:45,23,25,12,0.48,1005
+V0007,P002,D09,2025-12-04,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,11:30,29,15,13,0.8666666666666667,690
+V0008,P002,D07,2026-03-01,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,10:15,37,15,15,1.0,615
+V0009,P002,D05,2025-10-08,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,09:15,17,15,6,0.4,555
+V0010,P002,D10,2025-10-19,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,11:15,35,25,22,0.88,675
+V0011,P003,D15,2025-10-06,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,14:15,25,30,19,0.6333333333333333,855
+V0012,P003,D05,2026-07-03,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,14:00,23,25,12,0.48,840
+V0013,P003,D12,2025-11-21,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",09:45,20,20,11,0.55,585
+V0014,P004,D01,2026-03-19,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,10:45,27,25,20,0.8,645
+V0015,P004,D06,2026-01-31,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,13:15,25,20,12,0.6,795
+V0016,P004,D02,2026-01-11,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,12:15,22,30,18,0.6,735
+V0017,P004,D11,2026-06-09,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",14:00,24,15,9,0.6,840
+V0018,P005,D06,2025-10-11,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",12:15,23,25,13,0.52,735
+V0019,P005,D01,2025-08-12,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,13:00,20,15,8,0.5333333333333333,780
+V0020,P005,D10,2026-07-22,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",16:00,30,30,23,0.7666666666666667,960
+V0021,P006,D03,2025-08-01,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,15:00,33,20,18,0.9,900
+V0022,P006,D01,2026-06-04,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,11:15,29,15,12,0.8,675
+V0023,P006,D07,2026-05-15,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,14:30,32,25,22,0.88,870
+V0024,P007,D15,2026-06-13,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",11:00,23,15,9,0.6,660
+V0025,P007,D10,2025-08-05,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",16:30,28,20,15,0.75,990
+V0026,P007,D05,2026-06-07,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",16:30,26,25,16,0.64,990
+V0027,P007,D01,2025-08-10,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,11:30,24,15,7,0.4666666666666667,690
+V0028,P008,D12,2025-10-31,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,14:15,22,15,9,0.6,855
+V0029,P008,D15,2026-07-10,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",09:30,31,25,22,0.88,570
+V0030,P008,D07,2026-07-21,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,16:15,27,15,12,0.8,975
+V0031,P008,D03,2026-06-11,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,10:00,20,15,8,0.5333333333333333,600
+V0032,P008,D03,2026-03-18,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",15:30,25,20,11,0.55,930
+V0033,P009,D10,2026-07-18,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",09:00,20,25,12,0.48,540
+V0034,P009,D06,2026-05-24,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,14:00,18,20,9,0.45,840
+V0035,P009,D08,2026-02-08,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,15:45,23,15,8,0.5333333333333333,945
+V0036,P009,D01,2026-03-07,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",11:30,28,30,25,0.8333333333333334,690
+V0037,P009,D11,2026-01-23,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,16:15,25,25,18,0.72,975
+V0038,P010,D03,2025-11-25,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,13:45,32,20,18,0.9,825
+V0039,P010,D07,2025-11-16,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,10:30,20,30,13,0.43333333333333335,630
+V0040,P010,D12,2026-07-24,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,12:00,25,30,18,0.6,720
+V0041,P010,D06,2025-08-16,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,16:30,35,30,29,0.9666666666666667,990
+V0042,P010,D14,2025-09-01,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,13:15,29,25,22,0.88,795
+V0043,P011,D11,2025-12-20,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,13:00,23,20,8,0.4,780
+V0044,P011,D03,2025-10-07,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,11:00,25,25,17,0.68,660
+V0045,P011,D14,2025-08-14,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",12:45,20,25,11,0.44,765
+V0046,P011,D14,2026-02-13,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,14:30,24,20,11,0.55,870
+V0047,P012,D03,2026-01-26,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,12:45,32,20,17,0.85,765
+V0048,P012,D09,2026-05-13,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,09:00,25,20,15,0.75,540
+V0049,P012,D11,2025-09-20,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",16:00,19,20,8,0.4,960
+V0050,P013,D05,2026-03-14,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",11:30,23,20,13,0.65,690
+V0051,P013,D12,2026-04-06,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",11:00,34,20,17,0.85,660
+V0052,P013,D13,2026-02-11,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,14:45,23,25,12,0.48,885
+V0053,P013,D12,2025-09-29,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",14:15,27,25,19,0.76,855
+V0054,P013,D12,2026-05-20,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",11:30,26,30,22,0.7333333333333333,690
+V0055,P014,D07,2025-08-20,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,13:30,25,20,14,0.7,810
+V0056,P014,D13,2026-06-06,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,15:00,33,15,15,1.0,900
+V0057,P014,D05,2025-08-21,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,10:45,25,25,17,0.68,645
+V0058,P014,D02,2025-07-30,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,14:30,23,15,9,0.6,870
+V0059,P014,D12,2026-03-10,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",09:30,32,25,24,0.96,570
+V0060,P015,D15,2026-06-12,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",10:00,25,25,18,0.72,600
+V0061,P015,D03,2026-05-24,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",11:45,30,30,25,0.8333333333333334,705
+V0062,P015,D12,2025-10-07,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",10:45,35,25,22,0.88,645
+V0063,P016,D12,2026-05-23,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",10:00,27,20,15,0.75,600
+V0064,P016,D14,2026-03-26,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",10:00,27,25,18,0.72,600
+V0065,P016,D13,2025-10-01,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,10:00,23,30,17,0.5666666666666667,600
+V0066,P016,D07,2026-06-10,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,15:15,21,30,12,0.4,915
+V0067,P016,D05,2026-02-25,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",10:30,18,20,8,0.4,630
+V0068,P017,D14,2025-11-29,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",13:15,26,25,19,0.76,795
+V0069,P017,D04,2025-11-03,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",16:15,32,30,30,1.0,975
+V0070,P017,D15,2026-07-14,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,10:30,33,15,12,0.8,630
+V0071,P018,D10,2026-02-27,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,10:00,23,30,18,0.6,600
+V0072,P018,D01,2025-11-09,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,16:00,21,25,12,0.48,960
+V0073,P018,D01,2026-04-12,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",13:00,34,30,27,0.9,780
+V0074,P018,D14,2025-11-03,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,14:45,23,30,17,0.5666666666666667,885
+V0075,P018,D10,2026-03-27,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,13:45,20,30,13,0.43333333333333335,825
+V0076,P019,D02,2025-12-21,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",11:00,18,25,11,0.44,660
+V0077,P019,D08,2026-06-27,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,12:00,38,30,30,1.0,720
+V0078,P019,D03,2025-08-16,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",16:15,34,30,29,0.9666666666666667,975
+V0079,P019,D14,2026-01-08,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,09:15,27,15,12,0.8,555
+V0080,P020,D10,2026-05-15,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,12:15,20,20,11,0.55,735
+V0081,P020,D01,2026-05-15,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",12:15,33,15,12,0.8,735
+V0082,P020,D12,2025-10-17,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,10:00,30,25,20,0.8,600
+V0083,P020,D13,2025-07-30,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,14:30,35,30,29,0.9666666666666667,870
+V0084,P021,D01,2026-05-28,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",15:15,20,30,15,0.5,915
+V0085,P021,D15,2026-01-04,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,10:30,24,15,7,0.4666666666666667,630
+V0086,P021,D06,2025-11-19,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,13:45,35,25,23,0.92,825
+V0087,P021,D15,2026-07-06,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,11:30,20,30,13,0.43333333333333335,690
+V0088,P022,D09,2026-06-01,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,15:30,22,30,13,0.43333333333333335,930
+V0089,P022,D14,2026-07-04,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",13:30,28,15,13,0.8666666666666667,810
+V0090,P022,D02,2025-07-28,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,13:45,32,25,19,0.76,825
+V0091,P023,D09,2025-10-10,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",13:45,25,20,10,0.5,825
+V0092,P023,D12,2025-09-04,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,10:15,33,25,23,0.92,615
+V0093,P023,D12,2026-05-03,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",14:00,33,30,27,0.9,840
+V0094,P023,D14,2026-06-23,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,15:15,29,15,10,0.6666666666666666,915
+V0095,P023,D01,2025-09-29,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,12:15,26,15,8,0.5333333333333333,735
+V0096,P024,D10,2026-04-30,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",09:30,33,15,13,0.8666666666666667,570
+V0097,P024,D02,2026-05-27,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",16:45,33,25,21,0.84,1005
+V0098,P024,D11,2026-07-04,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",14:45,26,15,9,0.6,885
+V0099,P025,D11,2026-06-06,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,14:30,33,30,30,1.0,870
+V0100,P025,D01,2025-11-30,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,09:45,23,15,10,0.6666666666666666,585
+V0101,P025,D10,2025-09-05,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,12:15,22,20,11,0.55,735
+V0102,P025,D06,2026-03-26,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",16:15,22,15,6,0.4,975
+V0103,P026,D06,2026-05-11,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,13:30,27,15,9,0.6,810
+V0104,P026,D03,2026-02-10,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,14:45,29,30,24,0.8,885
+V0105,P026,D11,2025-10-14,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",15:00,24,30,21,0.7,900
+V0106,P027,D01,2025-12-03,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,10:45,26,25,19,0.76,645
+V0107,P027,D10,2025-10-31,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,13:30,32,25,20,0.8,810
+V0108,P027,D10,2026-02-28,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,12:00,25,20,10,0.5,720
+V0109,P027,D08,2025-08-24,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,11:00,30,30,22,0.7333333333333333,660
+V0110,P027,D02,2026-06-07,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,15:45,28,25,18,0.72,945
+V0111,P028,D01,2026-07-23,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",12:45,28,20,13,0.65,765
+V0112,P028,D06,2026-06-19,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,11:30,22,25,15,0.6,690
+V0113,P028,D10,2026-02-26,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,13:15,35,20,19,0.95,795
+V0114,P028,D13,2026-01-18,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,14:15,27,15,9,0.6,855
+V0115,P028,D14,2026-03-06,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,14:30,29,30,22,0.7333333333333333,870
+V0116,P029,D04,2025-07-31,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,09:00,31,15,13,0.8666666666666667,540
+V0117,P029,D01,2025-09-17,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",13:45,27,15,12,0.8,825
+V0118,P029,D12,2025-08-04,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,14:45,24,20,11,0.55,885
+V0119,P029,D14,2025-08-31,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,11:00,26,20,13,0.65,660
+V0120,P030,D08,2025-12-23,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,09:45,20,25,11,0.44,585
+V0121,P030,D10,2026-02-24,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",11:45,34,20,17,0.85,705
+V0122,P030,D05,2026-02-15,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",15:45,31,20,17,0.85,945
+V0123,P030,D04,2025-12-24,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",09:00,31,30,24,0.8,540
+V0124,P031,D05,2026-05-08,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,12:00,30,15,11,0.7333333333333333,720
+V0125,P031,D13,2026-01-19,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",14:30,21,20,11,0.55,870
+V0126,P031,D01,2026-03-05,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",13:15,30,30,28,0.9333333333333333,795
+V0127,P032,D07,2026-02-02,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,14:45,36,25,24,0.96,885
+V0128,P032,D11,2026-03-29,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,14:15,33,25,25,1.0,855
+V0129,P032,D10,2026-06-22,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",12:15,23,15,9,0.6,735
+V0130,P033,D13,2026-06-26,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",14:00,21,20,9,0.45,840
+V0131,P033,D09,2025-12-18,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,09:00,37,15,15,1.0,540
+V0132,P033,D09,2026-01-11,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",15:45,21,15,7,0.4666666666666667,945
+V0133,P033,D05,2025-07-31,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",11:15,37,25,25,1.0,675
+V0134,P033,D04,2026-02-19,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",10:30,34,25,23,0.92,630
+V0135,P034,D12,2025-11-06,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,10:30,19,30,15,0.5,630
+V0136,P034,D08,2025-12-28,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",12:30,28,30,18,0.6,750
+V0137,P034,D12,2026-01-24,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,15:30,24,20,13,0.65,930
+V0138,P034,D04,2025-10-15,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",16:30,23,30,18,0.6,990
+V0139,P034,D01,2026-06-07,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",10:45,19,15,7,0.4666666666666667,645
+V0140,P035,D12,2026-01-25,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,13:15,21,15,7,0.4666666666666667,795
+V0141,P035,D12,2026-04-22,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,09:00,37,25,24,0.96,540
+V0142,P035,D01,2026-06-09,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,14:30,26,15,10,0.6666666666666666,870
+V0143,P036,D08,2026-03-16,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",09:15,22,15,6,0.4,555
+V0144,P036,D11,2025-12-29,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,16:30,33,25,21,0.84,990
+V0145,P036,D13,2026-07-15,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",11:00,30,25,20,0.8,660
+V0146,P036,D02,2025-11-18,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",15:45,29,30,20,0.6666666666666666,945
+V0147,P036,D15,2026-02-08,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",11:00,24,20,9,0.45,660
+V0148,P037,D11,2026-04-16,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",16:45,33,30,30,1.0,1005
+V0149,P037,D09,2025-11-01,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,09:15,29,30,23,0.7666666666666667,555
+V0150,P037,D09,2026-04-07,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,16:00,27,15,12,0.8,960
+V0151,P038,D15,2026-07-24,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,12:30,34,15,14,0.9333333333333333,750
+V0152,P038,D10,2025-12-18,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,12:45,29,15,12,0.8,765
+V0153,P038,D08,2025-12-11,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",09:00,32,20,16,0.8,540
+V0154,P038,D11,2026-04-28,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,11:00,35,30,27,0.9,660
+V0155,P039,D06,2025-11-18,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,13:00,27,20,13,0.65,780
+V0156,P039,D01,2026-01-08,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",12:00,30,30,24,0.8,720
+V0157,P039,D13,2025-08-26,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,16:45,20,30,14,0.4666666666666667,1005
+V0158,P039,D01,2026-05-25,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",10:45,20,30,12,0.4,645
+V0159,P040,D10,2025-09-28,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,13:15,23,15,7,0.4666666666666667,795
+V0160,P040,D01,2025-11-02,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,09:15,34,25,21,0.84,555
+V0161,P040,D10,2026-01-21,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,14:45,32,25,25,1.0,885
+V0162,P041,D03,2026-02-16,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",14:30,29,15,11,0.7333333333333333,870
+V0163,P041,D13,2025-08-29,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,09:15,23,25,13,0.52,555
+V0164,P041,D10,2025-12-22,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,13:15,20,30,15,0.5,795
+V0165,P042,D08,2026-04-11,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",12:30,25,20,15,0.75,750
+V0166,P042,D14,2025-12-07,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",10:45,35,15,15,1.0,645
+V0167,P042,D07,2025-07-29,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,09:00,29,20,15,0.75,540
+V0168,P043,D13,2026-01-11,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,11:15,35,30,28,0.9333333333333333,675
+V0169,P043,D15,2026-02-14,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,14:45,30,15,12,0.8,885
+V0170,P043,D12,2026-05-20,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,15:30,24,20,12,0.6,930
+V0171,P043,D13,2025-09-02,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,15:30,25,20,10,0.5,930
+V0172,P044,D02,2026-06-05,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,12:15,27,25,16,0.64,735
+V0173,P044,D05,2026-06-23,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,11:30,26,25,14,0.56,690
+V0174,P044,D08,2025-11-07,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",15:30,38,25,25,1.0,930
+V0175,P044,D12,2026-04-27,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",10:00,33,15,14,0.9333333333333333,600
+V0176,P044,D10,2026-03-20,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,12:30,23,15,6,0.4,750
+V0177,P045,D09,2026-07-01,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,09:30,22,25,14,0.56,570
+V0178,P045,D15,2026-07-24,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,16:00,29,15,11,0.7333333333333333,960
+V0179,P045,D08,2026-04-08,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,15:15,34,20,19,0.95,915
+V0180,P046,D04,2025-08-03,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,15:45,33,15,12,0.8,945
+V0181,P046,D01,2026-02-11,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,13:15,21,15,6,0.4,795
+V0182,P046,D12,2026-06-10,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,14:15,35,20,18,0.9,855
+V0183,P046,D01,2025-08-15,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",11:00,32,25,24,0.96,660
+V0184,P046,D15,2026-07-13,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,09:45,29,15,12,0.8,585
+V0185,P047,D02,2026-03-16,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,13:00,21,20,10,0.5,780
+V0186,P047,D09,2026-04-17,Stomach pain,"Bloating, nausea",Mild Gastritis,Antacid,11:30,21,20,8,0.4,690
+V0187,P047,D10,2026-04-19,Chest pain,"Shortness of breath, fatigue",Mild Angina,"Aspirin, Beta-blocker",14:00,38,25,25,1.0,840
+V0188,P047,D09,2026-04-11,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,10:15,22,20,10,0.5,615
+V0189,P047,D08,2025-08-01,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,14:15,19,30,14,0.4666666666666667,855
+V0190,P048,D11,2025-10-19,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,13:15,34,25,21,0.84,795
+V0191,P048,D04,2026-05-27,Prenatal checkup,None reported,Normal Pregnancy — Routine Prenatal Visit,Iron and folic acid supplements,09:00,36,30,29,0.9666666666666667,540
+V0192,P048,D06,2026-03-10,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,12:00,27,30,19,0.6333333333333333,720
+V0193,P048,D01,2025-10-05,Headache,"Nausea, dizziness",Tension Headache,Pain reliever,15:30,23,30,15,0.5,930
+V0194,P048,D14,2025-08-26,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,14:45,33,15,14,0.9333333333333333,885
+V0195,P049,D10,2025-09-21,Routine checkup,None reported,No Acute Illness — Routine Wellness Check,Vitamins prescribed,10:00,24,20,13,0.65,600
+V0196,P049,D07,2026-05-11,Diabetes follow-up,"Fatigue, frequent urination",Type 2 Diabetes — Routine Management,Metformin dosage adjusted,12:15,24,15,7,0.4666666666666667,735
+V0197,P049,D02,2025-08-15,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",15:00,27,15,9,0.6,900
+V0198,P050,D11,2026-04-13,Skin rash,"Itching, redness",Contact Dermatitis,Antihistamine cream,14:00,28,15,13,0.8666666666666667,840
+V0199,P050,D09,2025-12-05,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",13:00,24,15,8,0.5333333333333333,780
+V0200,P050,D09,2025-08-28,Joint pain,"Swelling, stiffness",Mild Arthritis,"Ibuprofen, Physiotherapy",15:45,35,25,23,0.92,945
+V0201,P050,D01,2025-12-02,Cough and cold,"Sore throat, congestion",Upper Respiratory Tract Infection,"Cough syrup, Antibiotics",09:45,30,30,22,0.7333333333333333,585
+V0202,P050,D07,2026-07-03,Fever,"High temperature, body ache",Viral Fever,"Paracetamol, Rest advised",10:00,37,15,15,1.0,600

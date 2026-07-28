@@ -1,0 +1,51 @@
+patient_id,name,age,gender,category,annual_income,state,medical_history
+P001,Tanveer Rai,14,Male,OBC,150000,Andhra Pradesh,Thyroid
+P002,Irya Kohli,39,Male,SC,80000,Karnataka,Diabetes
+P003,Harita Yadav,45,Female,SC,80000,Karnataka,None
+P004,Sara Peri,45,Male,ST,400000,Andhra Pradesh,Hypertension
+P005,Amaira Vig,38,Male,OBC,900000,Maharashtra,None
+P006,Pranit Kakar,38,Female,ST,250000,Karnataka,Hypertension
+P007,Arjun Verma,70,Female,General,80000,Tamil Nadu,Hypertension
+P008,Lopa Shukla,85,Male,ST,600000,Tamil Nadu,Thyroid
+P009,Aarna Nori,53,Female,SC,600000,Tamil Nadu,Arthritis
+P010,Charvi Devi,19,Female,SC,80000,Kerala,Thyroid
+P011,Udant Tandon,25,Female,General,900000,Kerala,None
+P012,Abha Sami,27,Male,SC,900000,Maharashtra,None
+P013,Yahvi Dube,30,Male,SC,150000,Maharashtra,None
+P014,Urvashi Chaudry,5,Female,ST,80000,Tamil Nadu,Asthma
+P015,Sai Dyal,44,Male,General,150000,Maharashtra,Diabetes
+P016,Urishilla Rattan,15,Female,General,600000,Karnataka,Hypertension
+P017,Sara Arora,65,Male,SC,600000,Maharashtra,Thyroid
+P018,Akshay Mane,32,Male,SC,400000,Kerala,Thyroid
+P019,Ekaja Prabhakar,71,Female,General,150000,Karnataka,Diabetes
+P020,Hemani Venkataraman,48,Male,OBC,600000,Karnataka,Diabetes
+P021,Rachit Comar,14,Male,OBC,80000,Tamil Nadu,Asthma
+P022,Hemang Nanda,14,Male,SC,900000,Andhra Pradesh,Hypertension
+P023,Upkaar Dugal,74,Male,ST,150000,Andhra Pradesh,Thyroid
+P024,Maanav Mutti,29,Male,General,900000,Andhra Pradesh,Asthma
+P025,Kevin Solanki,59,Female,ST,900000,Tamil Nadu,Arthritis
+P026,Agastya Patel,17,Male,ST,900000,Kerala,Diabetes
+P027,Sarthak Panchal,36,Male,OBC,600000,Andhra Pradesh,Hypertension
+P028,Warda Nanda,59,Male,SC,400000,Karnataka,Diabetes
+P029,Yauvani Acharya,61,Male,General,900000,Maharashtra,Diabetes
+P030,Idika Sem,16,Male,OBC,400000,Andhra Pradesh,Thyroid
+P031,Peter Sekhon,32,Female,General,150000,Andhra Pradesh,Diabetes
+P032,Chanchal Kuruvilla,54,Female,ST,250000,Andhra Pradesh,Arthritis
+P033,Mekhala Behl,76,Female,OBC,150000,Kerala,Hypertension
+P034,Bachittar Kant,12,Male,SC,80000,Tamil Nadu,None
+P035,Rudra Ramaswamy,66,Male,General,600000,Tamil Nadu,Hypertension
+P036,Shaurya Trivedi,13,Male,OBC,400000,Tamil Nadu,None
+P037,Omaja Dua,36,Male,General,400000,Maharashtra,None
+P038,Shravya Sachdeva,71,Female,SC,150000,Kerala,Hypertension
+P039,Dipta Das,38,Female,OBC,900000,Kerala,Thyroid
+P040,Ayush Gour,45,Male,General,400000,Maharashtra,None
+P041,Priya Chacko,17,Male,OBC,600000,Kerala,Hypertension
+P042,Pushti Cherian,49,Male,OBC,250000,Kerala,Hypertension
+P043,Qushi Chopra,61,Female,General,900000,Maharashtra,Asthma
+P044,Warhi Sawhney,18,Male,SC,80000,Tamil Nadu,Arthritis
+P045,Jacob Suresh,75,Male,SC,250000,Maharashtra,Hypertension
+P046,Urishilla Thaker,48,Male,SC,600000,Andhra Pradesh,Asthma
+P047,Anthony Chad,11,Male,ST,250000,Tamil Nadu,Diabetes
+P048,Sanya Singhal,47,Male,SC,150000,Andhra Pradesh,None
+P049,Janaki Toor,59,Male,General,80000,Karnataka,None
+P050,Laban Gaba,9,Female,OBC,400000,Karnataka,Diabetes

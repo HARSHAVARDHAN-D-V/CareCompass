@@ -1,0 +1,16 @@
+doctor_id,name,department,available_days,available_hours
+D01,Sai Nayak,Cardiology,"Mon, Tue, Thu",9 AM - 1 PM
+D02,Brinda Shere,Orthopedics,"Tue, Mon, Sat",10 AM - 2 PM
+D03,Agastya Kanda,General Medicine,"Wed, Sat, Thu",10 AM - 2 PM
+D04,Ishani Dash,Pediatrics,"Mon, Fri, Tue",10 AM - 2 PM
+D05,Rudra Pillay,Dermatology,"Thu, Wed, Fri",2 PM - 6 PM
+D06,Gaurangi Dugar,ENT,"Mon, Fri, Tue",10 AM - 2 PM
+D07,Mitali Sami,Gynecology,"Wed, Thu, Sat",10 AM - 2 PM
+D08,Hredhaan Saini,Neurology,"Wed, Tue, Mon",9 AM - 1 PM
+D09,Luke Malhotra,General Medicine,"Thu, Fri, Sat",10 AM - 2 PM
+D10,Sneha Sood,Orthopedics,"Wed, Sat, Thu",9 AM - 1 PM
+D11,Veda Krishnamurthy,Dermatology,"Sat, Thu, Tue",9 AM - 1 PM
+D12,Meera Andra,General Medicine,"Mon, Thu, Tue",10 AM - 2 PM
+D13,Karan Chandra,Neurology,"Mon, Wed, Fri",10 AM - 2 PM
+D14,Maanas Goda,Orthopedics,"Fri, Sat, Wed",2 PM - 6 PM
+D15,Alka Majumdar,General Medicine,"Sat, Tue, Wed",10 AM - 2 PM

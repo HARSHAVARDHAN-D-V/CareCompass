@@ -72,9 +72,41 @@ with tab2:
                 "Note: this checks a curated 'Health & Wellness' category subset (212 schemes) — "
                 "some criteria could not be auto-extracted from free-text and are flagged for manual review.")
 
-    selected_patient_id = st.selectbox("Select a patient", patients_df['patient_id'] + " - " + patients_df['name'])
+    # Session-only new patient registry (resets on app restart — demo purposes)
+    if 'new_patients' not in st.session_state:
+        st.session_state.new_patients = []
+
+    with st.expander("➕ Register a New Patient"):
+        c1, c2 = st.columns(2)
+        with c1:
+            new_name = st.text_input("Full Name")
+            new_age = st.number_input("Age", 0, 120, 30)
+            new_gender = st.selectbox("Gender", ["Male", "Female"])
+            new_category = st.selectbox("Category", ["General", "OBC", "SC", "ST"])
+        with c2:
+            new_income = st.number_input("Annual Income (₹)", 0, 2000000, 200000, step=10000)
+            new_state = st.selectbox("State", ["Tamil Nadu", "Karnataka", "Kerala", "Andhra Pradesh", "Maharashtra"])
+            new_history = st.text_input("Medical History", value="None")
+
+        if st.button("Register Patient"):
+            if new_name.strip():
+                new_id = f"NEW{len(st.session_state.new_patients) + 1:03d}"
+                st.session_state.new_patients.append({
+                    'patient_id': new_id, 'name': new_name, 'age': new_age, 'gender': new_gender,
+                    'category': new_category, 'annual_income': new_income, 'state': new_state,
+                    'medical_history': new_history
+                })
+                st.success(f"Registered {new_name} (ID: {new_id}). Select them below to check eligibility.")
+            else:
+                st.warning("Enter a name first.")
+
+    # Combine loaded patients with any newly registered ones for this session
+    all_patients_df = pd.concat([patients_df, pd.DataFrame(st.session_state.new_patients)], ignore_index=True) \
+        if st.session_state.new_patients else patients_df
+
+    selected_patient_id = st.selectbox("Select a patient", all_patients_df['patient_id'] + " - " + all_patients_df['name'])
     patient_id = selected_patient_id.split(" - ")[0]
-    patient = patients_df[patients_df['patient_id'] == patient_id].iloc[0]
+    patient = all_patients_df[all_patients_df['patient_id'] == patient_id].iloc[0]
 
     st.write(f"**Age:** {patient['age']} | **Category:** {patient['category']} | "
              f"**Annual Income:** ₹{patient['annual_income']:,} | **State:** {patient['state']}")

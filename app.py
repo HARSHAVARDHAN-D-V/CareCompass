@@ -50,8 +50,9 @@ with tab1:
         for dept in doctors_df['department'].unique():
             if dept.lower() in query:
                 dept_doctors = doctors_df[doctors_df['department'] == dept]
-                names = ', '.join(dept_doctors['name'])
-                return f"Doctors in {dept}: {names}."
+                lines = [f"Dr. {row['name']} — {row['available_days']}, {row['available_hours']}"
+                         for _, row in dept_doctors.iterrows()]
+                return f"{dept} doctors and their availability:\n" + "\n".join(lines)
         if 'visitor' in query or 'visiting' in query:
             return "Visiting hours are 4 PM to 6 PM daily. Maximum 2 visitors per patient at a time."
         return "I'm not sure I understood that. You can ask me about hospital hours, departments, doctor availability, or visiting hours."
